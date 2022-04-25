@@ -82,7 +82,7 @@ function PortfolioList() {
             <div className={css.portfolio__info}>
               {/* <h4>Resume</h4> */}
               <div className={css.portfolio__links}>
-                <a href="https://github.com/dimapashchenko1/filmoteka" className={css.portfolio__link}>Resume</a>
+                <a href="https://pdv-resume.netlify.app" className={css.portfolio__link}>Resume</a>
               </div>
             </div>
           </div>
