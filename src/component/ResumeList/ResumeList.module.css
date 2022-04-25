@@ -1,0 +1,168 @@
+.resume__container {
+  padding: 15px;
+}
+
+.resume__container__pretitle {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.resume__container__pretitle::after {
+  content: '';
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #4ceb95;
+  margin: 4px 10px;
+}
+.resume__container__title {
+  margin: 15px 0px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+.resume__wrapper__img {
+  padding: 0 20px;
+}
+
+.resume__title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #18d26e;
+  margin-bottom: 30px;
+}
+.resume__text {
+  margin-bottom: 20px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.education__item:nth-child(even) {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.resume__item > strong,
+.education__item > strong {
+  margin-right: 10px;
+}
+
+.resume__pre,
+.education__pre {
+  font-size: 16px;
+  margin-right: 15px;
+  color: #18d26e;
+  line-height: 0;
+}
+
+.resume__pre::before {
+  content: '\003E';
+}
+
+.education__title {
+  margin-bottom: 30px;
+  color: #18d26e;
+  display: flex;
+  justify-content: center;
+}
+
+.education__pre::before {
+  content: '\2714';
+}
+
+.education__item > strong {
+  display: inline-block;
+}
+
+.education__item > p {
+  margin-left: 27px;
+}
+
+.resume__item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.education__item {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 320px) {
+  .resume__title {
+    text-align: center;
+  }
+
+  .resume__text {
+    text-align: justify;
+  }
+.resume__container__title{
+  margin: 5px 0px;
+  font-size: 23px;
+}
+.resume__item > strong,
+.education__item > strong {
+  margin-right: 6px;
+}
+
+}
+@media (min-width: 320px) {
+  .resume__container {
+    padding: 30px;
+  }
+  .resume__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+ 
+
+  .education__title {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+.education {
+  display: flex;
+  padding: 20px 30px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+}
+@media (min-width: 768px) {
+  .resume__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .resume__thumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+  }
+
+  .resume__thumb__wrapper {
+    padding: 20px 70px;
+  }
+
+  .education {
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-around;
+  }
+}

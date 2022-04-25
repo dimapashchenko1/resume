@@ -1,0 +1,27 @@
+
+
+.resume__resumeList {
+    width: 1280px;
+    background-color: rgba(0, 0, 0, 0.719);
+    margin-top: 80px;
+    max-height: auto;
+}
+
+ @media (max-width: 767px) {
+    .resume__resumeList{
+        max-width: 768px;
+    }
+  }
+  @media (max-width: 320px) {
+    .resume__resumeList{
+        width: 320px;
+    }
+  } 
+  @media (min-width: 1280px) {
+   
+    .resume__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }

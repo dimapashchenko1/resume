@@ -1,0 +1,56 @@
+.portfolio__portfolioList {
+  background-color: rgba(0, 0, 0, 0.719);
+  margin-top: 80px;
+  max-height: auto;
+}
+
+@media (max-width: 767px) {
+  .portfolio__portfolioList {
+    max-width: 768px;
+  }
+}
+@media (max-width: 320px) {
+  .portfolio__resumeList {
+    max-width: 320px;
+  }
+}
+@media (max-width: 1279px) {
+  .portfolio__portfolioList {
+    width: 768px;
+  }
+
+  .portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
+@media (min-width: 1279px) {
+  .portfolio__portfolioList {
+    width: 1280px;
+  }
+  .portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+/* @media (min-width: 768px) and (max-width: 1279px) {
+  .portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    
+  }
+
+  .portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+} */
