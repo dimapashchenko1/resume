@@ -5,7 +5,7 @@
   right: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 70px;
   background-color: rgba(0, 0, 0, 0.719);
@@ -15,6 +15,11 @@
   overflow: hidden;
   transition: ease-in-out 0.3s;
 }
+
+.header__menu {
+  display: none;
+  fill: white;
+}
 .header__title {
   display: block;
   transition: ease-in-out 1s;
@@ -23,8 +28,10 @@
   .header__nav {
     display: none;
   }
+  .header__menu {
+    display: block;
 }
-
+}
 @media (min-width: var(--min-tablet)) {
   .header__container {
     padding: 0 50px;
