@@ -120,12 +120,13 @@
   .resume__container {
     padding: 30px;
   }
-  .resume__wrapper {
+ 
+  .resume__wrapper__img{
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    align-content: center;
   }
-
  
 
   .education__title {
@@ -134,11 +135,14 @@
 }
 @media (max-width: 768px) {
 .education {
-  display: flex;
-  padding: 20px 30px;
+  /* display: flex; */
+  padding: 20px 0px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.resume__title {
+  margin-top: 30px;
 }
 }
 @media (min-width: 768px) {

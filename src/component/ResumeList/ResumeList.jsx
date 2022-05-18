@@ -26,32 +26,32 @@ function ResumeList() {
             <div className={css.resume__thumb}>
               <ul className={css.resume__list}>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre>{' '}
+                  <pre className={css.resume__pre}></pre>
                   <strong>Birthday:</strong> <span>10 Dec 1996</span>
                 </li>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre> <strong>Phone:</strong>{' '}
+                  <pre className={css.resume__pre}></pre> <strong>Phone:</strong>
                   <span>
                     <a href="tel:+380969022834">+380-96-90-22-834</a>
                   </span>
                 </li>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre> <strong>City:</strong>{' '}
+                  <pre className={css.resume__pre}></pre> <strong>City:</strong>
                   <span>Kyiv, Ukraine</span>
                 </li>
               </ul>
 
               <ul className={css.resume__list}>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre> <strong>Age:</strong>{' '}
+                  <pre className={css.resume__pre}></pre> <strong>Age:</strong>
                   <span>25</span>
                 </li>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre>{' '}
+                  <pre className={css.resume__pre}></pre>
                   <strong>Degree:</strong> <span>Master</span>
                 </li>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre> <strong>Email:</strong>{' '}
+                  <pre className={css.resume__pre}></pre> <strong>Email:</strong>
                   <span>
                     <a href="mailto:dimapashchenko1@gmail.com">
                       dimapashchenko1@gmail.com
