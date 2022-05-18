@@ -1,3 +1,27 @@
+.home__menu {
+  display: none;
+  fill: white;
+}
+.home__modal {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.home__title {
+  display: block;
+  transition: ease-in-out 1s;
+}
+@media (max-width: 767px) {
+  .home__nav {
+    display: none;
+  }
+  .home__menu {
+    display: block;
+}
+.home__social {
+  margin-top: 30px;
+}
+}
 .home__container {
   height: 100vh;
   display: flex;
