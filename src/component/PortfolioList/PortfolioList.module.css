@@ -273,7 +273,7 @@
 
   .portfolio {
     /* display: grid; */
-    max-width: 768px;
+    max-width: 1280px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 0px;
