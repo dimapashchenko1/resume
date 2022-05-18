@@ -11,4 +11,6 @@ export { default as ContactList } from './ContactList';
 export { default as PortfolioList } from './PortfolioList';
 export { default as Header } from './Header';
 export { default as Loader } from './Loader';
+export { default as Modal } from './MenuMobile';
+
 
