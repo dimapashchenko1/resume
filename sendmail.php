@@ -52,7 +52,7 @@ $mail->SMTPAuth = true;
 $mail->Username = 'dimapashchenko1@gmail.com';
 
 //Password to use for SMTP authentication
-$mail->Password = 'dimon1996super';
+$mail->Password = 'dimon1996passat';
 
 //Set who the message is to be sent from
 //Note that with gmail you can only use your account address (same as `Username`)
@@ -75,7 +75,7 @@ $mail->Subject = 'PHPMailer GMail SMTP test';
 // $mail->msgHTML(file_get_contents('contents.html'), __DIR__);
 
 //Replace the plain text body with one created manually
-$mail->Body = 'This is the HTML message body <b>in bold!</b>';
+// $mail->Body = 'This is the HTML message body <b>in bold!</b>';
 
 //Attach an image file
 // $mail->addAttachment('images/phpmailer_mini.png');
