@@ -4,6 +4,10 @@ import hellen from '../../image/img/hellen.png';
 import filmoteka from '../../image/img/filmoteka.png';
 import kapusta from '../../image/img/kapusta.png';
 import myResume from '../../image/img/my-resume.png';
+import Superhero from '../../image/img/superhero.png';
+import Superhero_back from '../../image/img/superhero-back.png';
+import Blog from '../../image/img/blog.png';
+
 function PortfolioList() {
   return (
     <>
@@ -75,7 +79,7 @@ function PortfolioList() {
         
         <li className={css.portfolio__item}>
           <div className={css.portfolio__wrap}>
-            <img src={myResume} className={css.portfolio__img}
+            <img src={myResume} className={css.img__fluid}
               alt="Resume"
               width={260}
               height={240}  />
@@ -87,7 +91,50 @@ function PortfolioList() {
             </div>
           </div>
         </li>
+
+        <li className={css.portfolio__item}>
+          <div className={css.portfolio__wrap}>
+            <img src={Superhero} className={css.img__fluid}
+              alt="Superhero"
+              width={260}
+              height={240}  />
+            <div className={css.portfolio__info}>
+              {/* <h4>Superhero</h4> */}
+              <div className={css.portfolio__links}>
+                <a href="https://pdv-superheros-app.netlify.app/" className={css.portfolio__link}>Superhero</a>
+              </div>
+            </div>
+          </div>
+        </li>
         
+        <li className={css.portfolio__item}>
+          <div className={css.portfolio__wrap}>
+            <img src={Superhero_back} className={css.img__fluid}
+              alt="Superhero-backend"
+              width={260}
+              height={240}  />
+            <div className={css.portfolio__info}>
+              {/* <h4>Superhero-backend</h4> */}
+              <div className={css.portfolio__links}>
+                <a href="https://github.com/dimapashchenko1/superheros-back" className={css.portfolio__link}>Superhero-backend</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className={css.portfolio__item}>
+          <div className={css.portfolio__wrap}>
+            <img src={Blog} className={css.img__fluid}
+              alt="Blog"
+              width={260}
+              height={240}  />
+            <div className={css.portfolio__info}>
+              {/* <h4>Blog</h4> */}
+              <div className={css.portfolio__links}>
+                <a href="https://dimapashchenko1.github.io/Blog" className={css.portfolio__link}>Blog</a>
+              </div>
+            </div>
+          </div>
+        </li>
         </ul>
 
       </div>
