@@ -16,7 +16,7 @@ function ContactList() {
             </svg>
             <div>
               <h3>Call Me</h3>
-              <a href="tel:+380969022834">+380969022834</a>
+              <a href="tel:+380934288939">+380934288939</a>
             </div>
           </div>
           <div className={css.contact__social}>
