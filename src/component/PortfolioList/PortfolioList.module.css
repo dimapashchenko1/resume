@@ -15,11 +15,8 @@
   }
   .portfolio__img {
     width: 480px;
-  
   }
 }
-
-
 
 .portfolio__wrap {
   transition: 0.3s;
@@ -41,8 +38,6 @@
   z-index: 2;
   opacity: 0;
 }
-
-
 
 .portfolio__info::before {
   display: block;
@@ -126,8 +121,6 @@
   bottom: 15px;
   right: 15px;
 }
-
-
 
 .portfolio__container__pretitle {
   font-size: 14px;
@@ -268,9 +261,7 @@
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 1279px) {
-
   .portfolio {
     /* display: grid; */
     max-width: 1280px;

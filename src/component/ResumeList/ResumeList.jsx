@@ -30,7 +30,8 @@ function ResumeList() {
                   <strong>Birthday:</strong> <span>10 Dec 1996</span>
                 </li>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre> <strong>Phone:</strong>
+                  <pre className={css.resume__pre}></pre>{' '}
+                  <strong>Phone:</strong>
                   <span>
                     <a href="tel:+380969022834">+380-96-90-22-834</a>
                   </span>
@@ -51,7 +52,8 @@ function ResumeList() {
                   <strong>Degree:</strong> <span>Master</span>
                 </li>
                 <li className={css.resume__item}>
-                  <pre className={css.resume__pre}></pre> <strong>Email:</strong>
+                  <pre className={css.resume__pre}></pre>{' '}
+                  <strong>Email:</strong>
                   <span>
                     <a href="mailto:dimapashchenko1@gmail.com">
                       dimapashchenko1@gmail.com
@@ -71,7 +73,6 @@ function ResumeList() {
                 <strong>
                   Kyiv National University of Technology and Design | 2018-2019
                 </strong>
-                
               </li>
               <li className={css.education__item}>
                 <p>
@@ -84,7 +85,7 @@ function ResumeList() {
                 <strong>
                   Kyiv National University of Technology and Design | 2016-2018
                 </strong>
-                </li>
+              </li>
               <li className={css.education__item}>
                 <p>Bachelor | "Technician in metrology".</p>
               </li>
@@ -104,17 +105,12 @@ function ResumeList() {
             <ul>
               <li className={css.education__item}>
                 <pre className={css.education__pre}></pre>
-                <strong>
-                IT School GoIT (Kyiv) | Jan 2021 - Feb 2022
-                </strong>
-                
+                <strong>IT School GoIT (Kyiv) | Jan 2021 - Feb 2022</strong>
               </li>
               <li className={css.education__item}>
-                <p>
-                Full Stack Developer
-                </p>
+                <p>Full Stack Developer</p>
               </li>
-              </ul>
+            </ul>
           </div>
         </div>
       </div>

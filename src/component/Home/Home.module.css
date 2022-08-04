@@ -17,10 +17,10 @@
   }
   .home__menu {
     display: block;
-}
-.home__social {
-  margin-top: 30px;
-}
+  }
+  .home__social {
+    margin-top: 30px;
+  }
 }
 .home__container {
   height: 100vh;

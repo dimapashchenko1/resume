@@ -14,16 +14,16 @@
   height: 40px;
   transition: 0.3s;
 }
-.social__link:not(:last-child){
+.social__link:not(:last-child) {
   margin-right: 20px;
 }
 
-.social__link:hover, .social__link:focus{
+.social__link:hover,
+.social__link:focus {
   background-color: #18d26e;
   /* visibility: hidden; */
   /* width: 0px; */
   transition: all 0.3s ease-in-out 0s;
-  
 }
 
 .social__icon {

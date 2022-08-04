@@ -106,44 +106,42 @@
   .resume__text {
     text-align: justify;
   }
-.resume__container__title{
-  margin: 5px 0px;
-  font-size: 23px;
-}
-.resume__item > strong,
-.education__item > strong {
-  margin-right: 6px;
-}
-
+  .resume__container__title {
+    margin: 5px 0px;
+    font-size: 23px;
+  }
+  .resume__item > strong,
+  .education__item > strong {
+    margin-right: 6px;
+  }
 }
 @media (min-width: 320px) {
   .resume__container {
     padding: 30px;
   }
- 
-  .resume__wrapper__img{
+
+  .resume__wrapper__img {
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
   }
- 
 
   .education__title {
     margin-bottom: 20px;
   }
 }
 @media (max-width: 768px) {
-.education {
-  /* display: flex; */
-  padding: 20px 0px;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.resume__title {
-  margin-top: 30px;
-}
+  .education {
+    /* display: flex; */
+    padding: 20px 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .resume__title {
+    margin-top: 30px;
+  }
 }
 @media (min-width: 768px) {
   .resume__wrapper {

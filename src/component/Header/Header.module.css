@@ -30,7 +30,7 @@
   }
   .header__menu {
     display: block;
-}
+  }
 }
 @media (min-width: var(--min-tablet)) {
   .header__container {

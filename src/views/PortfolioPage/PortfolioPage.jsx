@@ -1,5 +1,4 @@
 import Portfolio from '../../component/Portfolio';
-// import { Container } from '../../component/indeх';
 
 function PortfolioPage() {
  
