@@ -29,6 +29,8 @@ function PortfolioList() {
                 {/* <h4>Web Studio</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://dimapashchenko1.github.io/goit-markup-hw-08/"
                     className={css.portfolio__link}
                   >
@@ -52,6 +54,8 @@ function PortfolioList() {
                 {/* <h4>Hellen</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://sepaev.github.io/reacteam-project"
                     className={css.portfolio__link}
                   >
@@ -75,6 +79,8 @@ function PortfolioList() {
                 {/* <h4>Filmoteka</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://sepaev.github.io/filmoteka/"
                     className={css.portfolio__link}
                   >
@@ -98,6 +104,8 @@ function PortfolioList() {
                 {/* <h4>Kapusta</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://pedantic-engelbart-4b98e1.netlify.app/"
                     className={css.portfolio__link}
                   >
@@ -121,6 +129,8 @@ function PortfolioList() {
                 {/* <h4>Resume</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://pdv-resume.netlify.app"
                     className={css.portfolio__link}
                   >
@@ -144,6 +154,8 @@ function PortfolioList() {
                 {/* <h4>Superhero</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://pdv-superheros-app.netlify.app/"
                     className={css.portfolio__link}
                   >
@@ -167,6 +179,8 @@ function PortfolioList() {
                 {/* <h4>Superhero-backend</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://github.com/dimapashchenko1/superheros-back"
                     className={css.portfolio__link}
                   >
@@ -189,6 +203,8 @@ function PortfolioList() {
                 {/* <h4>Blog</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://dimapashchenko1.github.io/Blog"
                     className={css.portfolio__link}
                   >
@@ -211,6 +227,8 @@ function PortfolioList() {
                 {/* <h4>Finance Leader</h4> */}
                 <div className={css.portfolio__links}>
                   <a
+                    target="_blank"
+                    rel='noreferrer'
                     href="https://fin-leader-land.netlify.app/"
                     className={css.portfolio__link}
                   >
